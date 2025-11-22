@@ -1,14 +1,12 @@
 import "./App.css";
-import { Hero } from "./sections/hero";
-import { Main } from "./sections/main";
-import { Questions } from "./sections/questions";
-import { Footer } from "./sections/footer";
+import { Header } from "./components/header";
+import { Hero } from "./components/hero";
+import { Footer } from "./components/footer";
 function App() {
   return (
     <>
+      <Header />
       <Hero />
-      <Main />
-      <Questions />
       <Footer />
     </>
   );
