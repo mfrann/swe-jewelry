@@ -1,0 +1,38 @@
+.c-main-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.c-h1 {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  width: 50%;
+  height: 30vh;
+}
+
+.c-p {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  height: 30vh;
+}
+
+.c-h1 h1 {
+  font-family: "Boska", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: 2;
+}
+
+.c-p p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #242424;
+  font-size: 22px;
+  text-align: justify;
+}

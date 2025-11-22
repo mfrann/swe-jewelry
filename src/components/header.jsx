@@ -17,7 +17,7 @@ export function Header() {
     <header className={`h-main-container ${isScrolled ? "scrolled" : ""}`}>
       <div className="h-links">
         <a href="#">Home</a>
-        <a href="#">Shop</a>
+        <a href="#shop">Shop</a>
         <a href="#">Press</a>
       </div>
       <div className="h-name">

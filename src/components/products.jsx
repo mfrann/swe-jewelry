@@ -1,10 +1,10 @@
 import "../styles/products.css";
 
-export function Product() {
+export function Product({ src1, src2, src3, name, price }) {
   return (
     <div className="p-container">
       <img
-        src="src/assets/article/left.webp"
+        src={src1}
         alt="img-product-1"
         width={350}
         height={400}
@@ -12,7 +12,7 @@ export function Product() {
       />
       <div className="p-c-view">
         <img
-          src="src/assets/article/mid.webp"
+          src={src2}
           alt="img-mid"
           width={350}
           height={400}
@@ -22,12 +22,12 @@ export function Product() {
         <div className="p-overlay"></div>
 
         <div className="p-c-v-text">
-          <strong>Flowers Beauty</strong>
-          <span>$2800</span>
+          <strong>{name}</strong>
+          <span>{price}</span>
         </div>
       </div>
       <img
-        src="src/assets/article/right.webp"
+        src={src3}
         alt="img-product-2"
         width={350}
         height={400}

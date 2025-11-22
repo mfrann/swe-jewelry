@@ -19,10 +19,10 @@
 .p-title h1 {
   text-align: center;
   font-family: "Boska", sans-serif;
-  font-weight: 400;
-  letter-spacing: 2px;
-  font-size: 65px;
   width: 40%;
+  font-weight: 500;
+  font-size: 65px;
+  letter-spacing: 2;
 }
 
 .p-container {
@@ -45,7 +45,6 @@
   flex-direction: column;
   position: absolute;
   z-index: 10;
-  color: #ffffff;
   padding: 20px;
   bottom: 0;
   left: 0;
@@ -56,11 +55,13 @@
   font-size: 24px;
   font-weight: 400;
   letter-spacing: 2;
+  color: #ffffff;
 }
 
 .p-c-v-text span {
   font-size: 18px;
   font-family: "Pally", sans-serif;
+  color: #ffffff;
 }
 .p-overlay {
   position: absolute;
@@ -71,4 +72,9 @@
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
   z-index: 5;
   pointer-events: none;
+  border-radius: 10px;
+}
+
+.p-image {
+  border-radius: 10px;
 }
