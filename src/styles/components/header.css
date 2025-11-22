@@ -1,0 +1,66 @@
+.h-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+.h-main-container.scrolled {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.h-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding-left: 25px;
+  gap: 10px;
+}
+
+.h-links a {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #242424;
+}
+.h-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h-name span {
+  font-size: 32px;
+  font-family: "Telma", sans-serif;
+}
+
+.h-name h1 {
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Telma", sans-serif;
+}
+.h-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  padding-right: 25px;
+  gap: 10px;
+}
+
+.h-nav a {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #242424;
+}
