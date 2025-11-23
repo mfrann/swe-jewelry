@@ -1,0 +1,58 @@
+.s-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.s-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 30px;
+}
+
+.s-text a {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  color: #242424;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Bonny", sans-serif;
+  text-decoration: none;
+  padding: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.s-text a:hover {
+  transform: scale(1.5);
+}
+
+.s-text h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Boska", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2;
+  font-size: 60px;
+  gap: 25px;
+}
+
+.s-text strong,
+span {
+  display: flex;
+  font-family: "Telma", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.s-text span {
+  font-family: "Telma", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+}
