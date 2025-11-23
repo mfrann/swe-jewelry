@@ -26,7 +26,7 @@ export function Header() {
         </h1>
       </div>
       <div className="h-nav">
-        <a href="#press">Search</a>
+        <a href="#search">Search</a>
         <a href="#cart">Cart(0)</a>
         <a href="#login">Login</a>
       </div>

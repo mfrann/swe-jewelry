@@ -1,6 +1,28 @@
 .r-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.r-main-container #h1 {
+  font-family: "Boska", sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: 2;
+  padding: 40px;
+}
+
+.r-main-card {
   display: grid;
+  align-items: center;
+  justify-items: center;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 25px;
   width: 100%;
 }
 
@@ -8,24 +30,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  padding: 25px;
-}
-
-.r-img img {
-  border-radius: 100%;
+  gap: 15px;
+  padding: 22px;
+  width: 300px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .r-text {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 100%;
   text-align: justify;
   gap: 8px;
 }
 
 .r-text h1 {
   font-family: "Boska", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 2;
+  font-size: 24px;
+}
+
+.r-text p {
+  font-size: 13px;
+  width: 220px;
 }
