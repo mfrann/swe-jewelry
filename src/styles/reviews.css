@@ -1,0 +1,31 @@
+.r-main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.r-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 25px;
+}
+
+.r-img img {
+  border-radius: 100%;
+}
+
+.r-text {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: justify;
+  gap: 8px;
+}
+
+.r-text h1 {
+  font-family: "Boska", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2;
+}

@@ -1,10 +1,17 @@
 .c-main-container {
   display: flex;
   width: 80%;
-  justify-content: space-between;
   align-items: center;
   padding: 20px;
   margin-top: 50px;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.c-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .c-h1 {
@@ -35,4 +42,49 @@
   color: #242424;
   font-size: 22px;
   text-align: justify;
+}
+
+.c-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+.cc-main-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 16px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #242424;
+}
+
+.cc-main-container h1 {
+  display: flex;
+  width: 20%;
+  font-weight: 500;
+}
+
+.cc-main-container p {
+  display: flex;
+  width: 50%;
+}
+
+.cc-main-container a {
+  display: flex;
+  width: 10%;
+}
+
+.cc-main-container svg {
+  transition: transform 0.3s ease-in-out;
+}
+
+.cc-main-container svg:hover {
+  transform: scale(1.5);
 }

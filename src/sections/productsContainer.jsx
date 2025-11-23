@@ -1,4 +1,4 @@
-import { Product } from "./products";
+import { Product } from "../components/products";
 import { CollectionText } from "./collection";
 import "../styles/products.css";
 

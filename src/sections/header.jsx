@@ -18,7 +18,7 @@ export function Header() {
       <div className="h-links">
         <a href="#">Home</a>
         <a href="#shop">Shop</a>
-        <a href="#">Press</a>
+        <a href="#press">Press</a>
       </div>
       <div className="h-name">
         <h1>
@@ -26,9 +26,9 @@ export function Header() {
         </h1>
       </div>
       <div className="h-nav">
-        <a href="#">Search</a>
-        <a href="#">Cart(0)</a>
-        <a href="#">Login</a>
+        <a href="#press">Search</a>
+        <a href="#cart">Cart(0)</a>
+        <a href="#login">Login</a>
       </div>
     </header>
   );
