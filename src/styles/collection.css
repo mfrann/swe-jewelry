@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 
 .c-h1 {
@@ -79,6 +80,7 @@
 .cc-main-container a {
   display: flex;
   width: 10%;
+  justify-content: flex-end;
 }
 
 .cc-main-container svg {
@@ -87,4 +89,107 @@
 
 .cc-main-container svg:hover {
   transform: scale(1.5);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .c-main-container {
+    width: 80%;
+  }
+
+  .c-h1 h1 {
+    font-size: 50px;
+  }
+
+  .c-p p {
+    font-size: 20px;
+  }
+
+  .cc-main-container h1 {
+    width: 25%;
+    font-size: 18px;
+  }
+
+  .cc-main-container p {
+    width: 55%;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .c-main-container {
+    width: auto;
+    padding: 15px;
+    gap: 30px;
+  }
+
+  .c-text {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .c-h1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .c-h1 h1 {
+    font-size: 40px;
+  }
+
+  .c-p {
+    width: 100%;
+    height: auto;
+  }
+
+  .c-p p {
+    font-size: 18px;
+  }
+
+  .cc-main-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 0;
+  }
+
+  .cc-main-container h1 {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .cc-main-container p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .cc-main-container a {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .c-main-container {
+    width: auto;
+    padding: 10px;
+    margin-top: 30px;
+    gap: 20px;
+  }
+
+  .c-h1 h1 {
+    font-size: 32px;
+  }
+
+  .c-p p {
+    font-size: 16px;
+  }
+
+  .cc-main-container h1 {
+    font-size: 18px;
+  }
+
+  .cc-main-container p {
+    font-size: 13px;
+  }
 }

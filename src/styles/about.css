@@ -1,0 +1,170 @@
+.au-container-main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.au-link {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  width: fit-content;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  gap: 10px;
+  color: #3b3b3b;
+}
+
+.au-link::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.au-link:hover {
+  color: #2c2c2c;
+}
+
+.au-link:hover::after {
+  width: 90%;
+}
+
+.au-container-text {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 100%;
+  padding-left: 100px;
+}
+
+.au-container-text h2 {
+  font-family: "Boska", sans-serif;
+  font-weight: 500;
+  font-size: 80px;
+}
+
+.au-container-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5c5c5c;
+}
+
+.au-container-image {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  padding-right: 120px;
+}
+
+.au-container-image img {
+  display: flex;
+  z-index: -5;
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .au-container-text {
+    padding-left: 60px;
+  }
+
+  .au-container-text h2 {
+    font-size: 65px;
+  }
+
+  .au-container-image {
+    padding-right: 60px;
+  }
+
+  .au-container-image img {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .au-container-main {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 0;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .au-container-text {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .au-container-text h2 {
+    font-size: 48px;
+  }
+
+  .au-container-text p {
+    font-size: 15px;
+  }
+
+  .au-link {
+    padding-top: 40px;
+    font-size: 14px;
+  }
+
+  .au-container-image {
+    padding-right: 30px;
+    padding-left: 30px;
+    justify-content: center;
+  }
+
+  .au-container-image img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .au-container-main {
+    padding: 30px 0;
+    gap: 20px;
+    width: auto;
+  }
+
+  .au-container-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 90%;
+  }
+
+  .au-container-text h2 {
+    font-size: 36px;
+  }
+
+  .au-container-text p {
+    font-size: 14px;
+  }
+
+  .au-link {
+    padding-top: 30px;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .au-container-image {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: auto;
+  }
+}

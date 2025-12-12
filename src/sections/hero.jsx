@@ -10,8 +10,8 @@ export function Hero() {
           <p>A Poweful Symbol of the Cycles of Life</p>
         </div>
         <div className="hr-link">
-          <a href="">
-            Check New Collection
+          <a href="#shop">
+            New Collection
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -34,8 +34,8 @@ export function Hero() {
         <img
           src="src/assets/mockup.webp"
           alt="imagenes referenciales"
-          width={615}
-          height={610}
+          width={515}
+          height={510}
         />
       </div>
     </section>

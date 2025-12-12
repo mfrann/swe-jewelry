@@ -2,7 +2,7 @@ import "../styles/shop.css";
 
 export function Shop() {
   return (
-    <div className="s-main-container">
+    <div className="s-main-container" id="more">
       <div className="s-text">
         <a href="#">
           <svg
@@ -20,7 +20,7 @@ export function Shop() {
               d="M5 12h14M5 12l4 4m-4-4l4-4"
             />
           </svg>
-          Woman Accessories
+          WOMAN ACCS
         </a>
         <h1>
           <strong>
@@ -29,7 +29,7 @@ export function Shop() {
           is for Everyone
         </h1>
         <a href="#">
-          Man Accessories
+          MAN ACCS
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -49,8 +49,18 @@ export function Shop() {
       </div>
 
       <div className="s-img">
-        <img src="src/assets/woman.webp" alt="woman accessories" width={500} />
-        <img src="src/assets/man.webp" alt="man accessories" width={500} />
+        <img
+          src="src/assets/woman.webp"
+          alt="woman accessories"
+          width={550}
+          height={700}
+        />
+        <img
+          src="src/assets/man.webp"
+          alt="man accessories"
+          width={550}
+          height={700}
+        />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { CollectionCard } from "../components/collectionCard";
 
 export function CollectionText() {
   return (
-    <section className="c-main-container" id="press">
+    <section className="c-main-container" id="collection">
       <div className="c-text">
         <div className="c-h1">
           <h1> A COLLECTION AS UNIQUE AS YOU</h1>
