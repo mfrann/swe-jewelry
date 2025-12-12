@@ -50,13 +50,13 @@ export function Shop() {
 
       <div className="s-img">
         <img
-          src="src/assets/woman.webp"
+          src="/assets/woman.webp"
           alt="woman accessories"
           width={550}
           height={700}
         />
         <img
-          src="src/assets/man.webp"
+          src="/assets/man.webp"
           alt="man accessories"
           width={550}
           height={700}

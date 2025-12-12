@@ -32,7 +32,7 @@ export function Hero() {
       </div>
       <div className="hr-image-container">
         <img
-          src="src/assets/mockup.webp"
+          src="/assets/mockup.webp"
           alt="imagenes referenciales"
           width={515}
           height={510}

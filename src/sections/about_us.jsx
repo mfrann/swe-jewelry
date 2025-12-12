@@ -29,7 +29,7 @@ export function AboutUs() {
       </div>
       <div className="au-container-image">
         <img
-          src="src/assets/ambient/office.webp"
+          src="/assets/ambient/office.webp"
           alt="ambient-office-image"
           width={550}
           height={700}
